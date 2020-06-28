@@ -1,6 +1,6 @@
 ﻿//Edit the tags and the delimeters here, you can also edit the identifier tag
 var validTags = ["<",">","L","R","AL","AR","A<","A>"];
-var delim = ". ."; //If you really wanna fuck with shit, you can make this " #BLM " or something lol
+var delim = ". ."; //If you really wanna fuck with shit, you can make this " #genericLibtardHashtag " or something lol
 var identifier = "(ftUser)";
 var port = chrome.runtime.connect({name: "freetawkPort69"});
 
