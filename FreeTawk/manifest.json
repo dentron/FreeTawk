@@ -1,0 +1,36 @@
+{
+  "name": "Free Tawk",
+
+  "version": "1.0",
+
+  "description": "Fuck big tech, commie assholes.",
+
+  "background": {
+    "scripts": [ "js/background.js" ],
+    "persistent": false
+  },
+
+  "permissions": [
+    "activeTab",
+    "declarativeContent"
+  ],
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "img/freetawk16.png",
+      "32": "img/freetawk32.png",
+      "64": "img/freetawk64.png",
+      "128": "img/freetawk128.png"
+    }
+  },
+
+  "icons": {
+    "16": "img/freetawk16.png",
+    "32": "img/freetawk32.png",
+    "64": "img/freetawk64.png",
+    "128": "img/freetawk128.png"
+  },
+
+  "manifest_version": 2
+}

@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <style>
+        button{
+            height: 30px;
+            width: 120px;
+        }
+        pre {
+            background-color: rgb(230,230,230);
+            white-space: pre-wrap; 
+            word-wrap: break-word; 
+            width: 99%;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 300px; height: 500px;">
+        <h1>FreeTawk</h1>
+        <br />
+        <h1>Create Message</h1>
+        <p>Enter encoder tag:</p>
+        <input type="text" id="encoderbox" />
+        <br />
+        <p>Enter Message</p>
+        <textarea id="msgbox"></textarea>
+        <br />
+        <p>Encoded message:</p>
+        <pre id="encmsg"></pre>
+        <br />
+        <button id="subenc">Click to encode!</button>
+        <br /><br />
+
+        <h1>Manual decode</h1>
+        <p>Custom decoding tag (optional, do not add delimiter for message)</p>
+        <input type="text" id="custdectag"/>
+        <br />
+        <p>Message to decode</p>
+        <textarea id="decbox"></textarea>
+        <p>Decoded message:</p>
+        <pre id="decmsg"></pre>
+        <br />
+        <button id="subdec">Click to decode!</button>
+        <br /><br />
+
+    </div>
+
+    <script src="js/popup.js"></script>
+</body>
+</html>
