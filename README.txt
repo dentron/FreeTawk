@@ -55,3 +55,5 @@ A few notes:
 - If people do pick up the ball and roll with this, you have to edit decoding in the background JS file, and encoding in the popup JS file. I added some sparse comments to help.
 
 - Since delimiters may have higher detection and user change rates, they can be bypassed with the custom tag decode field
+
+Instead of wasting money on an e-girl consider throwing a few digital shekels into the garbage with a btc donation 3EkArcX8JHtmK1sQRgwmEpyezM9uhHB8Np
