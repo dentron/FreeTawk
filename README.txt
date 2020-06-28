@@ -53,3 +53,5 @@ A few notes:
 - If enough people use this, detection could result, try to make custom tags and even new encoding/decoding methods to communicate, share these with others to bypass censorship.
 
 - If people do pick up the ball and roll with this, you have to edit decoding in the background JS file, and encoding in the popup JS file. I added some sparse comments to help.
+
+- Since delimiters may have higher detection and user change rates, they can be bypassed with the custom tag decode field
