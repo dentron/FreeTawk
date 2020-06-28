@@ -40,7 +40,7 @@ for info on how to do it using the link below. This can be actually placed anywh
 
 https://developer.chrome.com/extensions/content_scripts
 
-As a small tutorial for use here it is. First, uner "Create Message" type your message into the 'Enter message' field and enter a tag according to above. Then hit the big 
+As a small tutorial for use here it is. First, under "Create Message" type your message into the 'Enter message' field and enter a tag according to above. Then hit the big 
 encode button, your message will appear ciphered in a grey colored box. This can then be copied and pasted into your website or messaging app of choice! You can take your message and put it 
 into the "Message to decode" field (you can leave the other alone) Press the corresponding button and your message should be spit back to you. This is how others can see your message.
 
